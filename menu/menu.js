@@ -548,6 +548,10 @@ document.addEventListener("keydown", function (event) {
 function Enter_rules() {
   let rules = document.getElementById("Container_rules1");
   let but = document.getElementById("Buttons");
+  let set = document.getElementById("Settings");
+  let cust = document.getElementById("Customise");
+  set.style.display = "none";
+  cust.style.display = "none";
   but.style.display = "none";
   rules.style.display = "flex";
 }
